@@ -118,7 +118,7 @@ include "action.php";
                       <th><?php echo $row["m_name"];?></th>
                       <th><?php echo $row["qty"];?></th>
                       <th><a href="index.php?update=1&id=<?php echo $row["id"];?>" class="btn btn-warning">Edit</a></th>
-                      <th><a href="#" class="btn btn-danger">Delete</a></th>
+                      <th><a href="action.php?delete=1&id=<?php echo $row["id"]?>" name="delete" class="btn btn-danger">Delete</a></th>
                     </tr>
 
                   <?php
